@@ -1,0 +1,11 @@
+.*.dir
+.vlt
+.project
+.settings/
+.classpath
+target/
+.idea/
+*.iml
+*.log
+*~
+.settings/org.eclipse.jdt.core.prefs

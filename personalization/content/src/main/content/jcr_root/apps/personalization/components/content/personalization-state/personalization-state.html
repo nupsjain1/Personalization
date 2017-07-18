@@ -1,0 +1,7 @@
+<sly data-sly-use.selection="com.ttn.intellimeet.personalization.PersonalizationStates"/>
+<div class="form-group">
+  <label for="inputlg">${properties.title ? properties.title : 'State'}</label>
+  <select class="form-control input-lg" id="state-select" data-sly-list.option="${selection.optionsMap}">
+    <option value="${option}">${selection.optionsMap[option]}</option>
+  </select>
+</div>

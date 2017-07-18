@@ -48,14 +48,14 @@
                     <group>Intellimeet</group>
                     <filters>
                         <filter>
-                            <root>/apps/cloudwords-connector</root>
+                            <root>/apps/personalization</root>
                         </filter>
                     </filters>
                     <embeddeds>
                         <embedded>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>personalization-bundle</artifactId>
-                            <target>/apps/cloudwords-connector/install</target>
+                            <target>/apps/personalization/install</target>
                         </embedded>
                     </embeddeds>
                     <targetURL>http://${crx.host}:${crx.port}/crx/packmgr/service.jsp</targetURL>
